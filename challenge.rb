@@ -30,4 +30,4 @@ def printer(names)
 end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-printer(names)
+# printer(names)
