@@ -30,4 +30,5 @@ def printer(names)
 end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-printer(names)
+# printer(names)
+p batch_badge_creator(names)
