@@ -4,15 +4,15 @@ end
 
 
 def batch_badge_creator(names)
-  new_names = names.map do |name|
+  badge_names = names.map do |name|
     badge_maker(name)
   end
-  return new_names
+  return badge_names
 end
 
 def assign_rooms(names)
-  new_names = names.map do |name|
+  room_names = names.map do |name|
     badge_maker(name)
   end
-  return new_names
+  return room_names
 end
