@@ -11,8 +11,11 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
+  i = 1
   names.map do |name|
+    "Hi "
     
+  end  
 end
 
 names = ["Stuart", "John", "Mike", "Joe"]
