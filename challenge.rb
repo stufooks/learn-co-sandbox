@@ -15,11 +15,9 @@ def assign_rooms(names)
   i = 0
   
   while i < names.length
-    room_names [i] = "Hello, #{names[i]}! You'll be assigned to room #{i + 1}!"
+    room_names[i] = "Hello, #{names[i]}! You'll be assigned to room #{i + 1}!"
     i += 1
   end
+  
   return room_names
 end
-
-names = ["Stuart", "John", "Mike", "Joe"]
-puts assign_rooms(names)
