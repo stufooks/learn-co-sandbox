@@ -10,5 +10,3 @@ def batch_badge_creator(names)
   return new_names
 end
 
-arr = ["Edsger", "Ada", "Charles"]
-p batch_badge_creator(arr)
