@@ -12,9 +12,9 @@ end
 
 def assign_rooms(names)
   i = 1
-  names.map do |name|
-    "Hi "
-    
+  room_names = names.map do |name|
+    "Hello, #{name}! You'll be assigned to  room #{i}!"
+    i += 1
   end  
 end
 
