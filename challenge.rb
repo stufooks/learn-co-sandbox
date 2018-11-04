@@ -17,7 +17,7 @@ def assign_rooms(names)
   while i < names.length
    room_names = "Hello, #{names[i]}! You'll be assigned to  room #{i + 1}!"
    return room_names
-    i += 1 
+    i += 1
   end
 end
 
