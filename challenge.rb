@@ -30,5 +30,4 @@ def printer(names)
 end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-# printer(names)
-p assign_rooms(names)
+printer(names)
