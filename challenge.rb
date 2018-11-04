@@ -8,4 +8,5 @@ def batch_badge_creator(names)
     badge_maker(name)
 end
 
-arr = []
+arr = ["Edsger", "Ada", "Charles"]
+puts batch_badge_creator(arr)
