@@ -10,6 +10,7 @@ def batch_badge_creator(names)
   return badge_names
 end
 
+
 def assign_rooms(names)
   room_names = []
   i = 0
@@ -22,7 +23,10 @@ def assign_rooms(names)
   return room_names
 end
 
+
 def printer(names)
   puts batch_badge_creator(names)
   puts assign_rooms(names)
 end
+
+names = []
