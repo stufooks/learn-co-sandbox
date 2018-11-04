@@ -4,9 +4,10 @@ end
 
 
 def batch_badge_creator(names)
-  names.each do |name|
+  new_names = names.map do |name|
     badge_maker(name)
   end
+  return new_names
 end
 
 arr = ["Edsger", "Ada", "Charles"]
