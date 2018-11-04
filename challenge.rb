@@ -12,13 +12,14 @@ end
 
 def assign_rooms(names)
   room_names = []
-  i = 1
+  i = 0
   
-  while i <= 7
-   room_names = "Hello, #{names[i]}! You'll be assigned to  room #{i}!"
+  while i < rooms.length
+   room_names = "Hello, #{names[i]}! You'll be assigned to  room #{i + 1}!"
    return room_names
     i += 1 
   end
 end
 
 names = ["Stuart", "John", "Mike", "Joe"]
+puts assign_rooms(names)
