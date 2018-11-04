@@ -11,8 +11,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  room_names = names.map do |name|
-    badge_maker(name)
-  end
+  i = 1
+  while i <= 7
+  room_names = 
   return room_names
 end
