@@ -11,4 +11,4 @@ def batch_badge_creator(names)
 end
 
 arr = ["Edsger", "Ada", "Charles"]
-puts batch_badge_creator(arr)
+p batch_badge_creator(arr)
