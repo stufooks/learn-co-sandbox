@@ -29,4 +29,5 @@ def printer(names)
   puts assign_rooms(names)
 end
 
-names = []
+names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+printer(names)
