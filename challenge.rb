@@ -11,8 +11,14 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
+  room_names = []
   i = 1
+  
   while i <= 7
-  room_names = 
-  return room_names
+   room_names = "Hello, #{names[i]}! You'll be assigned to  room #{i}!"
+   return room_names
+    i += 1 
+  end
 end
+
+names = ["Stuart", "John", "Mike", "Joe"]
