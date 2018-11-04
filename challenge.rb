@@ -11,15 +11,8 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  room_names = []
-  i = 0
-  
-  while i < names.length
-   room_names = "Hello, #{names[i]}! You'll be assigned to  room #{i + 1}!"
-    i += 1
-  end
-  
-  return room_names
+  names.map do |name|
+    
 end
 
 names = ["Stuart", "John", "Mike", "Joe"]
