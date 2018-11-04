@@ -31,4 +31,4 @@ end
 
 names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 # printer(names)
-p batch_badge_creator(names)
+p assign_rooms(names)
